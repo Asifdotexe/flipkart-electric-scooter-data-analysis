@@ -14,15 +14,37 @@ This notebook focuses on the crucial steps of data cleaning and transformation. 
 
 In this notebook, we delve into the world of exploratory data analysis using pandas, matplotlib, and seaborn. Through statistical analysis and visualizations, we uncover patterns, trends, and relationships within the electric scooter data. This step enhances our understanding of the market and assists in making informed decisions.
 
-## Dependencies
+# Setting Up the Virtual Environment
 
-Ensure that you have the following dependencies installed before running the notebooks:
+To ensure a smooth execution of the Electric Scooter Listings Analysis project, it's recommended to set up a virtual environment. This helps manage dependencies and ensures that the project runs with the specified library versions. Follow the steps below to create and activate the virtual environment:
 
-- Python
-- Jupyter Notebooks
-- BeautifulSoup
-- Pandas
-- Requests
-- Numpy
-- Matplotlib
-- Seaborn
+1. **Create Virtual Environment:**
+   Open a terminal or command prompt and navigate to the project directory. Run the following command to create a virtual environment named "venv" (you can replace "venv" with your preferred name):
+
+   ```bash
+   python -m venv venv
+   ```
+
+2. **Activate Virtual Environment:**
+   Activate the virtual environment based on your operating system:
+
+   - **For Windows:**
+     ```bash
+     .\venv\Scripts\activate
+     ```
+
+   - **For MacOS/Linux:**
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Install Dependencies:**
+   Once the virtual environment is activated, install the required dependencies using the following command:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   This will install the necessary packages like BeautifulSoup, Pandas, Requests, Numpy, Matplotlib, and Seaborn.
+
+Now you have a virtual environment set up with the required dependencies, ensuring a clean and isolated environment for running the Electric Scooter Listings Analysis project.
